@@ -10,7 +10,7 @@ namespace WorkWithFile
     {
         public void WorkFile()
         {   string path = @"C:\Users\murvi\Desktop\1.txt";
-            string pathEx = @"C:\Users\murvi\Desktop\2.txt";
+            string pathEx = @"C:\Users\murvi\Desktop\1.csv";
             using (StreamReader reader = new StreamReader(pathEx, Encoding.Default))
             {
                 string Call;
